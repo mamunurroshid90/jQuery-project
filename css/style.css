@@ -3,9 +3,7 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: #000;
-}
+
 h1,
 h2,
 h3,
@@ -19,6 +17,10 @@ p {
   font-size: 20px;
   line-height: 30px;
   color: #6c757d;
+}
+
+.r-p {
+  padding: 80px 0;
 }
 
 /* Navigation */
@@ -115,4 +117,36 @@ header {
 }
 .content-box p {
   color: #fff;
+}
+
+/* About section */
+.about li a {
+  color: #000;
+  display: inline-block;
+  height: 42px;
+  width: 42px;
+  font-size: 20px;
+  border: solid 2px #d4d4d4;
+  border-radius: 50%;
+  line-height: 40px;
+  transition: all 0.5s;
+  text-align: center;
+}
+
+.about li a:hover {
+  color: #ee8683;
+}
+
+/* Experience Section */
+.exp-class .progress {
+  height: 10px;
+  border-radius: 20px;
+  font-size: 10px;
+}
+.progress-bar {
+  background: #ee8683 !important;
+}
+.exp-class label {
+  font-size: 20px;
+  margin: 10px;
 }
