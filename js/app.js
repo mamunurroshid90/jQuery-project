@@ -46,4 +46,16 @@ $(document).ready(function () {
     },
     offset: "90%",
   });
+
+  var filterizd = $(".filter-container").filterizr({
+    animationDuration: 0.5,
+  });
+
+  // owl carousel
+  $(".owl-carousel").owlCarousel({
+    loop: true,
+    items: 1,
+    autoplayTimeout: 3000,
+    autoplay: true,
+  });
 });

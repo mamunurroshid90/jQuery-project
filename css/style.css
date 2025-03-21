@@ -178,3 +178,57 @@ header {
   margin: 15px auto;
   background: #e65f78;
 }
+
+/* Testimony section */
+
+.testimony-class .test-item {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.testimony-class .test-item .test-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.testimony-class .test-item i {
+  color: gray;
+}
+
+.testimony-class .test-item .test-name {
+  font-size: 11px;
+}
+
+/* Work */
+.work-class .card-wrapper {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Contact section */
+.contact .r-icon {
+  font-size: 50px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  height: 200px;
+  background-color: #333333;
+}
+footer .r-icon a {
+  font-size: 20px;
+  color: #848484;
+  padding: 10px;
+  border: 1px solid #848484;
+  border-radius: 50%;
+}
+
+footer .r-icon a:hover {
+  color: #eee;
+  border: 1px solid #eee;
+  transition: all 0.5s ease-in;
+}
